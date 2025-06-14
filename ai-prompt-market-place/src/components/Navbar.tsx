@@ -17,6 +17,9 @@ export function Navbar() {
         <Button variant="ghost" asChild>
           <Link href="/profile">Profile</Link>
         </Button>
+        <Button variant="ghost" asChild>
+          <Link href="/login">Login</Link>
+        </Button>
       </div>
     </nav>
   );
