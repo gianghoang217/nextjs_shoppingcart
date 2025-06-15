@@ -20,6 +20,7 @@ RUN npm run build
 # Use a lightweight web server for serving the built application
 FROM node:18-alpine AS production
 
+
 # Set the working directory
 WORKDIR /app
 
