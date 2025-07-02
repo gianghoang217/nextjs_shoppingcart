@@ -20,5 +20,10 @@ export async function GET(_: NextRequest, { params }: { params: { id: string } }
   return NextResponse.json({ prompt });
 }
 
+// GET Prompts GET Prompt Create New Prompt
+
+// Update Prompt | Delete Prompt
+// integrate full api
+
 // 18:47 | 21:47
 // terminal => folder structure => markdown structure

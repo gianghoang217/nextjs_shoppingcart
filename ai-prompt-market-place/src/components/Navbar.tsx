@@ -8,17 +8,14 @@ export function Navbar() {
         PromptHub
       </Link>
       <div className="flex gap-4">
-        <Button variant="ghost" asChild>
-          <Link href="/explore">Explore prompt</Link>
+        <Button variant="ghost">
+          <Link href="/explore">Khám phá</Link>
         </Button>
         <Button variant="ghost" asChild>
-          <Link href="/create">Create prompt</Link>
+          <Link href="/create">Tạo prompt</Link>
         </Button>
         <Button variant="ghost" asChild>
-          <Link href="/profile">Profile</Link>
-        </Button>
-        <Button variant="ghost" asChild>
-          <Link href="/login">Login</Link>
+          <Link href="/profile">Cá nhân</Link>
         </Button>
       </div>
     </nav>
